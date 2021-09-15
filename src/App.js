@@ -7,7 +7,10 @@ import Message from './components/Message';
 import Counter from './components/Counter';
 import ClassClick from './components/ClassClick';
 import ParentComponent from './components/ParentComponent';
-
+import UserGreeting from './components/UserGreeting';
+import NameList from './components/NameList';
+import StyleSheet from './components/StyleSheet';
+import Inline from './components/Inline';
 
 class App extends Component {
   render() {
@@ -26,6 +29,10 @@ class App extends Component {
         <Counter></Counter>
         <ClassClick/>
         <ParentComponent></ParentComponent>
+        <UserGreeting></UserGreeting>
+        <NameList></NameList>
+        <StyleSheet primary={true}></StyleSheet>
+        <Inline></Inline>
       </div>
     );
   }
